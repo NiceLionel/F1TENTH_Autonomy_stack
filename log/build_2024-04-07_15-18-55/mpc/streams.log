@@ -1,0 +1,60 @@
+[0.058s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[0.208s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.275s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.604s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.783s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.137s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.327s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.587s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[1.590s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.636s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.759s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[1.803s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.891s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[1.983s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.480s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.630s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.632s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.632s] -- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/include
+[2.632s] -- Configured cppcheck exclude dirs and/or files: 
+[2.635s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.635s] -- Configured cpplint exclude dirs and/or files: 
+[2.636s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.637s] -- Added test 'lint_cmake' to check CMake code style
+[2.638s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.639s] -- Added test 'uncrustify' to check C / C++ code style
+[2.639s] -- Configured uncrustify additional arguments: 
+[2.640s] -- Added test 'xmllint' to check XML markup files
+[2.646s] -- Configuring done
+[2.700s] -- Generating done
+[2.707s] -- Build files have been written to: /home/lionelliu/sim_ws/build/mpc
+[2.780s] [100%] Built target mpc_node
+[2.808s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[2.866s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc
+[2.944s] -- Install configuration: ""
+[2.944s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node
+[2.945s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[2.945s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[2.947s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[2.947s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[2.992s] Listing '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[2.998s] -- Installing: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[2.998s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/mpc/utils.py
+[2.998s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[2.998s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[2.999s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[2.999s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[2.999s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.sh
+[2.999s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.dsv
+[3.001s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.bash
+[3.001s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.sh
+[3.001s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.zsh
+[3.001s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.dsv
+[3.002s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.dsv
+[3.002s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+[3.002s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[3.002s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[3.003s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.xml
+[3.013s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc

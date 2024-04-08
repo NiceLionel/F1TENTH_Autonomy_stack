@@ -1,0 +1,104 @@
+[0.056s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc -DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/mpc
+[0.320s] -- The C compiler identification is GNU 9.4.0
+[0.521s] -- The CXX compiler identification is GNU 9.4.0
+[0.529s] -- Check for working C compiler: /usr/bin/cc
+[0.661s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.662s] -- Detecting C compiler ABI info
+[0.961s] -- Detecting C compiler ABI info - done
+[1.004s] -- Detecting C compile features
+[1.009s] -- Detecting C compile features - done
+[1.020s] -- Check for working CXX compiler: /usr/bin/c++
+[1.430s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.432s] -- Detecting CXX compiler ABI info
+[1.755s] -- Detecting CXX compiler ABI info - done
+[1.781s] -- Detecting CXX compile features
+[1.782s] -- Detecting CXX compile features - done
+[1.791s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.882s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.882s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.452s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.644s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.662s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.090s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.245s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.586s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.691s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.693s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.697s] -- Looking for pthread.h
+[3.909s] -- Looking for pthread.h - found
+[3.910s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.058s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.061s] -- Looking for pthread_create in pthreads
+[4.154s] -- Looking for pthread_create in pthreads - not found
+[4.156s] -- Looking for pthread_create in pthread
+[4.413s] -- Looking for pthread_create in pthread - found
+[4.415s] -- Found Threads: TRUE  
+[4.649s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[4.652s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.696s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.812s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[4.881s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.988s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[5.102s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[5.768s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.933s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.942s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.942s] -- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/include
+[5.942s] -- Configured cppcheck exclude dirs and/or files: 
+[5.945s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.945s] -- Configured cpplint exclude dirs and/or files: 
+[5.945s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.945s] -- Added test 'lint_cmake' to check CMake code style
+[5.946s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.950s] -- Added test 'uncrustify' to check C / C++ code style
+[5.950s] -- Configured uncrustify additional arguments: 
+[5.950s] -- Added test 'xmllint' to check XML markup files
+[5.970s] -- Configuring done
+[6.036s] -- Generating done
+[6.044s] -- Build files have been written to: /home/lionelliu/sim_ws/build/mpc
+[6.065s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc -DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/mpc
+[6.070s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[6.200s] [35m[1mScanning dependencies of target mpc_node[0m
+[6.590s] [ 50%] [32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o[0m
+[11.299s] [01m[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:32:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K-Wdeprecated-declarations[m[K]
+[11.300s]    32 |     void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[01;35m[K)[m[K
+[11.302s]       |                                                                                 [01;35m[K^[m[K
+[11.302s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[11.302s]                  from [01m[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:10[m[K:
+[11.302s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:114:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[11.302s]   114 |     [01;36m[KConstPtr[m[K;
+[11.302s]       |     [01;36m[K^~~~~~~~[m[K
+[11.307s] [01m[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:[m[K In member function ‘[01m[Kvoid MPC::pose_callback(const ConstPtr&)[m[K’:
+[11.307s] [01m[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:32:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[11.307s]    32 |     void pose_callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg[m[K)
+[11.307s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.366s] [100%] [32m[1mLinking CXX executable mpc_node[0m
+[12.990s] [100%] Built target mpc_node
+[13.042s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[13.165s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc
+[13.187s] -- Install configuration: ""
+[13.193s] -- Installing: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node
+[13.197s] -- Set runtime path of "/home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node" to ""
+[13.198s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[13.199s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[13.201s] -- Installing: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[13.203s] -- Installing: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[13.365s] Listing '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[13.366s] Compiling '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py'...
+[13.373s] -- Installing: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[13.377s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[13.379s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[13.388s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[13.389s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[13.391s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.sh
+[13.392s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.dsv
+[13.393s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.bash
+[13.395s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.sh
+[13.396s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.zsh
+[13.398s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.dsv
+[13.400s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.dsv
+[13.401s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+[13.403s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[13.405s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[13.406s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.xml
+[13.418s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc

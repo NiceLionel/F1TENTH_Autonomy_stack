@@ -1,0 +1,92 @@
+[0.063s] Invoking command in '/home/lionelliu/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/pure_pursuit
+[0.489s] -- The C compiler identification is GNU 9.4.0
+[0.644s] -- The CXX compiler identification is GNU 9.4.0
+[0.686s] -- Check for working C compiler: /usr/bin/cc
+[1.095s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.106s] -- Detecting C compiler ABI info
+[1.622s] -- Detecting C compiler ABI info - done
+[1.666s] -- Detecting C compile features
+[1.667s] -- Detecting C compile features - done
+[1.682s] -- Check for working CXX compiler: /usr/bin/c++
+[2.212s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.216s] -- Detecting CXX compiler ABI info
+[2.672s] -- Detecting CXX compiler ABI info - done
+[2.761s] -- Detecting CXX compile features
+[2.762s] -- Detecting CXX compile features - done
+[2.814s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.943s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.944s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.103s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.309s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.656s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.791s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.514s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.528s] -- Looking for pthread.h
+[5.973s] -- Looking for pthread.h - found
+[5.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.365s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.365s] -- Looking for pthread_create in pthreads
+[6.747s] -- Looking for pthread_create in pthreads - not found
+[6.749s] -- Looking for pthread_create in pthread
+[7.171s] -- Looking for pthread_create in pthread - found
+[7.173s] -- Found Threads: TRUE  
+[7.827s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[7.836s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.970s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.304s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.472s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.917s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[9.194s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[12.094s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[12.544s] -- Added test 'copyright' to check source files copyright and LICENSE
+[12.563s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[12.565s] -- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit/include
+[12.565s] -- Configured cppcheck exclude dirs and/or files: 
+[12.575s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[12.576s] -- Configured cpplint exclude dirs and/or files: 
+[12.580s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.589s] -- Added test 'lint_cmake' to check CMake code style
+[12.598s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[12.604s] -- Added test 'uncrustify' to check C / C++ code style
+[12.604s] -- Configured uncrustify additional arguments: 
+[12.607s] -- Added test 'xmllint' to check XML markup files
+[12.652s] -- Configuring done
+[12.740s] -- Generating done
+[12.757s] -- Build files have been written to: /home/lionelliu/sim_ws/build/pure_pursuit
+[12.829s] Invoked command in '/home/lionelliu/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit -DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/pure_pursuit
+[12.834s] Invoking command in '/home/lionelliu/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/pure_pursuit -- -j2 -l2
+[13.749s] [35m[1mScanning dependencies of target pure_pursuit_node[0m
+[14.213s] [ 50%] [32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o[0m
+[97.751s] [100%] [32m[1mLinking CXX executable pure_pursuit_node[0m
+[98.195s] [100%] Built target pure_pursuit_node
+[98.217s] Invoked command in '/home/lionelliu/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/pure_pursuit -- -j2 -l2
+[98.276s] Invoking command in '/home/lionelliu/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/pure_pursuit
+[98.300s] -- Install configuration: ""
+[98.302s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node
+[98.321s] -- Set runtime path of "/home/lionelliu/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""
+[98.322s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh
+[98.324s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv
+[98.326s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit
+[98.329s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py
+[98.380s] Listing '/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...
+[98.380s] Compiling '/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py'...
+[98.386s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py
+[98.396s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit
+[98.398s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit
+[98.400s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh
+[98.401s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv
+[98.403s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh
+[98.404s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv
+[98.406s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash
+[98.407s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh
+[98.410s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh
+[98.412s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv
+[98.413s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv
+[98.418s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit
+[98.419s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake
+[98.422s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake
+[98.424s] -- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml
+[98.435s] Invoked command in '/home/lionelliu/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/pure_pursuit

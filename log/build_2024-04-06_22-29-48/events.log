@@ -1,0 +1,1056 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (f1tenth_gym_ros) JobQueued: {'identifier': 'f1tenth_gym_ros', 'dependencies': OrderedDict()}
+[0.000603] (lab6_pkg) JobQueued: {'identifier': 'lab6_pkg', 'dependencies': OrderedDict()}
+[0.000630] (mpc) JobQueued: {'identifier': 'mpc', 'dependencies': OrderedDict()}
+[0.000649] (pure_pursuit) JobQueued: {'identifier': 'pure_pursuit', 'dependencies': OrderedDict()}
+[0.000667] (f1tenth_gym_ros) JobStarted: {'identifier': 'f1tenth_gym_ros'}
+[0.039813] (lab6_pkg) JobStarted: {'identifier': 'lab6_pkg'}
+[0.099047] (-) TimerEvent: {}
+[0.199726] (-) TimerEvent: {}
+[0.307730] (-) TimerEvent: {}
+[0.414075] (-) TimerEvent: {}
+[0.520469] (-) TimerEvent: {}
+[0.622772] (-) TimerEvent: {}
+[0.665322] (lab6_pkg) JobProgress: {'identifier': 'lab6_pkg', 'progress': 'cmake'}
+[0.665929] (lab6_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg', '-DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/lab6_pkg'], 'cwd': '/home/lionelliu/sim_ws/build/lab6_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/lab6_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[0.732720] (-) TimerEvent: {}
+[0.833900] (-) TimerEvent: {}
+[0.934665] (-) TimerEvent: {}
+[1.035896] (-) TimerEvent: {}
+[1.136289] (-) TimerEvent: {}
+[1.236744] (-) TimerEvent: {}
+[1.337183] (-) TimerEvent: {}
+[1.437820] (-) TimerEvent: {}
+[1.538480] (-) TimerEvent: {}
+[1.639094] (-) TimerEvent: {}
+[1.739645] (-) TimerEvent: {}
+[1.784201] (lab6_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.839829] (-) TimerEvent: {}
+[1.940927] (-) TimerEvent: {}
+[2.041678] (-) TimerEvent: {}
+[2.142891] (-) TimerEvent: {}
+[2.244179] (-) TimerEvent: {}
+[2.297639] (lab6_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[2.331914] (lab6_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[2.347648] (-) TimerEvent: {}
+[2.448104] (-) TimerEvent: {}
+[2.548476] (-) TimerEvent: {}
+[2.638638] (lab6_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[2.643744] (lab6_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.651453] (-) TimerEvent: {}
+[2.751944] (-) TimerEvent: {}
+[2.810182] (f1tenth_gym_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_gym_ros', 'build', '--build-base', '/home/lionelliu/sim_ws/build/f1tenth_gym_ros/build', 'install', '--record', '/home/lionelliu/sim_ws/build/f1tenth_gym_ros/install.log', '--install-scripts', '$base/lib/f1tenth_gym_ros', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/lionelliu/sim_ws/src/f1tenth_gym_ros', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lionelliu', 'SSH_AGENT_PID': '1434', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/lionelliu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1329', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/lionelliu/sim_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'lionelliu', 'JOURNAL_STREAM': '8:50415', '_': '/usr/local/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lionelliu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469', 'INVOCATION_ID': 'a69ee839c74747d3ab48189ad2e52f14', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.564', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lionelliu/sim_ws/build/f1tenth_gym_ros', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lionelliu/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg'}, 'shell': False}
+[2.852221] (-) TimerEvent: {}
+[2.954277] (-) TimerEvent: {}
+[3.061960] (-) TimerEvent: {}
+[3.064801] (lab6_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.097746] (lab6_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.107981] (lab6_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.113672] (lab6_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[3.162346] (-) TimerEvent: {}
+[3.267941] (-) TimerEvent: {}
+[3.372707] (-) TimerEvent: {}
+[3.478240] (-) TimerEvent: {}
+[3.568105] (lab6_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[3.570429] (lab6_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.578561] (-) TimerEvent: {}
+[3.625020] (f1tenth_gym_ros) StdoutLine: {'line': b'running egg_info\n'}
+[3.626272] (f1tenth_gym_ros) StdoutLine: {'line': b'creating ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info\n'}
+[3.627467] (f1tenth_gym_ros) StdoutLine: {'line': b'writing ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/PKG-INFO\n'}
+[3.629211] (f1tenth_gym_ros) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/dependency_links.txt\n'}
+[3.634365] (f1tenth_gym_ros) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/entry_points.txt\n'}
+[3.635100] (f1tenth_gym_ros) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/requires.txt\n'}
+[3.636032] (f1tenth_gym_ros) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/top_level.txt\n'}
+[3.642636] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.682731] (-) TimerEvent: {}
+[3.740223] (f1tenth_gym_ros) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.749766] (f1tenth_gym_ros) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info/SOURCES.txt'\n"}
+[3.750367] (f1tenth_gym_ros) StdoutLine: {'line': b'running build\n'}
+[3.750578] (f1tenth_gym_ros) StdoutLine: {'line': b'running build_py\n'}
+[3.750944] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build\n'}
+[3.759333] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build/lib\n'}
+[3.759749] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros\n'}
+[3.761944] (f1tenth_gym_ros) StdoutLine: {'line': b'copying f1tenth_gym_ros/gym_bridge.py -> /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros\n'}
+[3.762429] (f1tenth_gym_ros) StdoutLine: {'line': b'copying f1tenth_gym_ros/__init__.py -> /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros\n'}
+[3.762898] (f1tenth_gym_ros) StdoutLine: {'line': b'running install\n'}
+[3.764019] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_lib\n'}
+[3.767486] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros\n'}
+[3.767978] (f1tenth_gym_ros) StdoutLine: {'line': b'copying /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/gym_bridge.py -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros\n'}
+[3.768360] (f1tenth_gym_ros) StdoutLine: {'line': b'copying /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build/lib/f1tenth_gym_ros/__init__.py -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros\n'}
+[3.782946] (-) TimerEvent: {}
+[3.783388] (f1tenth_gym_ros) StdoutLine: {'line': b'byte-compiling /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/gym_bridge.py to gym_bridge.cpython-38.pyc\n'}
+[3.812068] (f1tenth_gym_ros) StdoutLine: {'line': b'byte-compiling /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros/__init__.py to __init__.cpython-38.pyc\n'}
+[3.819535] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_data\n'}
+[3.819890] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/ament_index\n'}
+[3.820116] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index\n'}
+[3.820313] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages\n'}
+[3.820660] (f1tenth_gym_ros) StdoutLine: {'line': b'copying resource/f1tenth_gym_ros -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/ament_index/resource_index/packages\n'}
+[3.822398] (f1tenth_gym_ros) StdoutLine: {'line': b'copying package.xml -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros\n'}
+[3.822835] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch\n'}
+[3.823096] (f1tenth_gym_ros) StdoutLine: {'line': b'copying launch/gym_bridge_launch.py -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch\n'}
+[3.823748] (f1tenth_gym_ros) StdoutLine: {'line': b'copying launch/opp_racecar.xacro -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch\n'}
+[3.827426] (f1tenth_gym_ros) StdoutLine: {'line': b'copying launch/ego_racecar.xacro -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch\n'}
+[3.831891] (f1tenth_gym_ros) StdoutLine: {'line': b'copying launch/gym_bridge.rviz -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/launch\n'}
+[3.833750] (f1tenth_gym_ros) StdoutLine: {'line': b'creating /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config\n'}
+[3.834231] (f1tenth_gym_ros) StdoutLine: {'line': b'copying config/sim.yaml -> /home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/config\n'}
+[3.835463] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.848926] (f1tenth_gym_ros) StdoutLine: {'line': b'Copying ../../build/f1tenth_gym_ros/f1tenth_gym_ros.egg-info to /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages/f1tenth_gym_ros-0.0.0-py3.8.egg-info\n'}
+[3.850616] (f1tenth_gym_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[3.886049] (-) TimerEvent: {}
+[3.917657] (f1tenth_gym_ros) StdoutLine: {'line': b'Installing gym_bridge script to /home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/f1tenth_gym_ros\n'}
+[3.919294] (f1tenth_gym_ros) StdoutLine: {'line': b"writing list of installed files to '/home/lionelliu/sim_ws/build/f1tenth_gym_ros/install.log'\n"}
+[3.991698] (-) TimerEvent: {}
+[4.019573] (f1tenth_gym_ros) CommandEnded: {'returncode': 0}
+[4.025308] (lab6_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.052003] (lab6_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.053449] (lab6_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.070426] (lab6_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[4.088847] (f1tenth_gym_ros) JobEnded: {'identifier': 'f1tenth_gym_ros', 'rc': 0}
+[4.089633] (mpc) JobStarted: {'identifier': 'mpc'}
+[4.091861] (-) TimerEvent: {}
+[4.140412] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'cmake'}
+[4.140989] (mpc) Command: {'cmd': ['/usr/bin/cmake', '/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc', '-DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/mpc'], 'cwd': '/home/lionelliu/sim_ws/build/mpc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/mpc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[4.193506] (-) TimerEvent: {}
+[4.203364] (lab6_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[4.203912] (lab6_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.293879] (-) TimerEvent: {}
+[4.394661] (-) TimerEvent: {}
+[4.409313] (mpc) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.497270] (-) TimerEvent: {}
+[4.599299] (-) TimerEvent: {}
+[4.610254] (mpc) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.618281] (mpc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.699807] (-) TimerEvent: {}
+[4.750294] (mpc) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[4.751823] (mpc) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.801938] (-) TimerEvent: {}
+[4.902709] (-) TimerEvent: {}
+[5.007970] (-) TimerEvent: {}
+[5.050550] (mpc) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.093593] (mpc) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.095022] (mpc) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.108224] (-) TimerEvent: {}
+[5.109580] (mpc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.112350] (lab6_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[5.211355] (-) TimerEvent: {}
+[5.316147] (-) TimerEvent: {}
+[5.420119] (-) TimerEvent: {}
+[5.497627] (lab6_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.519874] (mpc) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[5.521435] (-) TimerEvent: {}
+[5.521648] (mpc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.570110] (lab6_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[5.621736] (-) TimerEvent: {}
+[5.724825] (-) TimerEvent: {}
+[5.826714] (-) TimerEvent: {}
+[5.844307] (mpc) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.870333] (mpc) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.871991] (mpc) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.880251] (mpc) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.926897] (-) TimerEvent: {}
+[5.971312] (mpc) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[5.971848] (mpc) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.030588] (-) TimerEvent: {}
+[6.038230] (lab6_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[6.134045] (-) TimerEvent: {}
+[6.146328] (lab6_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[6.234229] (-) TimerEvent: {}
+[6.334690] (-) TimerEvent: {}
+[6.435266] (-) TimerEvent: {}
+[6.539893] (-) TimerEvent: {}
+[6.541692] (mpc) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[6.581890] (lab6_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.641051] (-) TimerEvent: {}
+[6.733228] (mpc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.743653] (-) TimerEvent: {}
+[6.751640] (mpc) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[6.803889] (lab6_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.811453] (lab6_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.822247] (lab6_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.843848] (-) TimerEvent: {}
+[6.945594] (-) TimerEvent: {}
+[7.046042] (-) TimerEvent: {}
+[7.153469] (-) TimerEvent: {}
+[7.179424] (mpc) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[7.184997] (lab6_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.187895] (lab6_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.253836] (-) TimerEvent: {}
+[7.335151] (mpc) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[7.361089] (-) TimerEvent: {}
+[7.415801] (lab6_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[7.415992] (lab6_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.461690] (-) TimerEvent: {}
+[7.563666] (-) TimerEvent: {}
+[7.651447] (lab6_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.653635] (lab6_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.665974] (-) TimerEvent: {}
+[7.675974] (mpc) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.766433] (-) TimerEvent: {}
+[7.781029] (mpc) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[7.782676] (mpc) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.787113] (mpc) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.846515] (lab6_pkg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.848406] (lab6_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.866567] (-) TimerEvent: {}
+[7.966977] (-) TimerEvent: {}
+[7.999173] (mpc) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.999352] (mpc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.067133] (-) TimerEvent: {}
+[8.147907] (mpc) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[8.148112] (mpc) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[8.173662] (-) TimerEvent: {}
+[8.243967] (mpc) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[8.244150] (mpc) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[8.274006] (-) TimerEvent: {}
+[8.333817] (lab6_pkg) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[8.343145] (lab6_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[8.381927] (-) TimerEvent: {}
+[8.482544] (-) TimerEvent: {}
+[8.502712] (mpc) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[8.504394] (mpc) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.529728] (lab6_pkg) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[8.584494] (-) TimerEvent: {}
+[8.684880] (-) TimerEvent: {}
+[8.693781] (lab6_pkg) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[8.738561] (mpc) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[8.741843] (mpc) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[8.785023] (-) TimerEvent: {}
+[8.785756] (mpc) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[8.787549] (lab6_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[8.887384] (-) TimerEvent: {}
+[8.901785] (mpc) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[8.970174] (mpc) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[8.975760] (lab6_pkg) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[8.987598] (-) TimerEvent: {}
+[9.077776] (mpc) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[9.090509] (-) TimerEvent: {}
+[9.165965] (lab6_pkg) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.190776] (mpc) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[9.191517] (-) TimerEvent: {}
+[9.291847] (-) TimerEvent: {}
+[9.392274] (-) TimerEvent: {}
+[9.492665] (-) TimerEvent: {}
+[9.593068] (-) TimerEvent: {}
+[9.693494] (-) TimerEvent: {}
+[9.794678] (-) TimerEvent: {}
+[9.857936] (mpc) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.895203] (-) TimerEvent: {}
+[9.995714] (-) TimerEvent: {}
+[10.014598] (lab6_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[10.022922] (mpc) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.031210] (mpc) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.031689] (mpc) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/include\n'}
+[10.031786] (mpc) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.034626] (mpc) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.034847] (mpc) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.034982] (mpc) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.035123] (mpc) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.036185] (mpc) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.039920] (mpc) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.040096] (mpc) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.040181] (mpc) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.059586] (mpc) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.095924] (-) TimerEvent: {}
+[10.126022] (mpc) StdoutLine: {'line': b'-- Generating done\n'}
+[10.133864] (mpc) StdoutLine: {'line': b'-- Build files have been written to: /home/lionelliu/sim_ws/build/mpc\n'}
+[10.154579] (mpc) CommandEnded: {'returncode': 0}
+[10.155409] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'build'}
+[10.158792] (mpc) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lionelliu/sim_ws/build/mpc', '--', '-j2', '-l2'], 'cwd': '/home/lionelliu/sim_ws/build/mpc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/mpc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[10.197693] (-) TimerEvent: {}
+[10.254193] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.257839] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[10.258006] (lab6_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/include\n'}
+[10.258664] (lab6_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[10.265844] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[10.266002] (lab6_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[10.266073] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.266284] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.267100] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.270025] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[10.270178] (lab6_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[10.270248] (lab6_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.281998] (lab6_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.289992] (mpc) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mpc_node\x1b[0m\n'}
+[10.297836] (-) TimerEvent: {}
+[10.314676] (lab6_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[10.323164] (lab6_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/lionelliu/sim_ws/build/lab6_pkg\n'}
+[10.365410] (lab6_pkg) CommandEnded: {'returncode': 0}
+[10.373353] (lab6_pkg) JobProgress: {'identifier': 'lab6_pkg', 'progress': 'build'}
+[10.373520] (lab6_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lionelliu/sim_ws/build/lab6_pkg', '--', '-j2', '-l2'], 'cwd': '/home/lionelliu/sim_ws/build/lab6_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/lab6_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[10.402957] (-) TimerEvent: {}
+[10.469603] (lab6_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rrt_node\x1b[0m\n'}
+[10.503109] (-) TimerEvent: {}
+[10.603673] (-) TimerEvent: {}
+[10.679429] (mpc) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mpc_node.dir/src/mpc_node.cpp.o\x1b[0m\n'}
+[10.690382] (lab6_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o\x1b[0m\n'}
+[10.706644] (-) TimerEvent: {}
+[10.807002] (-) TimerEvent: {}
+[10.907477] (-) TimerEvent: {}
+[11.009282] (-) TimerEvent: {}
+[11.110148] (-) TimerEvent: {}
+[11.210708] (-) TimerEvent: {}
+[11.311391] (-) TimerEvent: {}
+[11.411809] (-) TimerEvent: {}
+[11.514121] (-) TimerEvent: {}
+[11.617641] (-) TimerEvent: {}
+[11.718852] (-) TimerEvent: {}
+[11.819389] (-) TimerEvent: {}
+[11.920020] (-) TimerEvent: {}
+[12.023702] (-) TimerEvent: {}
+[12.125584] (-) TimerEvent: {}
+[12.226243] (-) TimerEvent: {}
+[12.326732] (-) TimerEvent: {}
+[12.430592] (-) TimerEvent: {}
+[12.531319] (-) TimerEvent: {}
+[12.632057] (-) TimerEvent: {}
+[12.734029] (-) TimerEvent: {}
+[12.837987] (-) TimerEvent: {}
+[12.939954] (-) TimerEvent: {}
+[13.040634] (-) TimerEvent: {}
+[13.141313] (-) TimerEvent: {}
+[13.241867] (-) TimerEvent: {}
+[13.345412] (-) TimerEvent: {}
+[13.445896] (-) TimerEvent: {}
+[13.546578] (-) TimerEvent: {}
+[13.648231] (-) TimerEvent: {}
+[13.748849] (-) TimerEvent: {}
+[13.849486] (-) TimerEvent: {}
+[13.954202] (-) TimerEvent: {}
+[14.055312] (-) TimerEvent: {}
+[14.155723] (-) TimerEvent: {}
+[14.256183] (-) TimerEvent: {}
+[14.362227] (-) TimerEvent: {}
+[14.465759] (-) TimerEvent: {}
+[14.566239] (-) TimerEvent: {}
+[14.675365] (-) TimerEvent: {}
+[14.775746] (-) TimerEvent: {}
+[14.876218] (-) TimerEvent: {}
+[14.976843] (-) TimerEvent: {}
+[15.078937] (-) TimerEvent: {}
+[15.182601] (-) TimerEvent: {}
+[15.283303] (-) TimerEvent: {}
+[15.383774] (-) TimerEvent: {}
+[15.388729] (mpc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:32:81:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >::ConstPtr\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[15.389974] (mpc) StderrLine: {'line': b'   32 |     void pose_callback(const geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[01;35m\x1b[K)\x1b[m\x1b[K\n'}
+[15.390097] (mpc) StderrLine: {'line': b'      |                                                                                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[15.391479] (mpc) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[15.391586] (mpc) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:10\x1b[m\x1b[K:\n'}
+[15.391736] (mpc) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:114:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[15.391815] (mpc) StderrLine: {'line': b'  114 |     \x1b[01;36m\x1b[KConstPtr\x1b[m\x1b[K;\n'}
+[15.391883] (mpc) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[15.396772] (mpc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MPC::pose_callback(const ConstPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.396949] (mpc) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc/src/mpc_node.cpp:32:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[15.397032] (mpc) StderrLine: {'line': b'   32 |     void pose_callback(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped::ConstPtr &pose_msg\x1b[m\x1b[K)\n'}
+[15.397101] (mpc) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[15.483965] (-) TimerEvent: {}
+[15.584539] (-) TimerEvent: {}
+[15.684958] (-) TimerEvent: {}
+[15.785585] (-) TimerEvent: {}
+[15.839394] (lab6_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt.cpp.o\x1b[0m\n'}
+[15.885862] (-) TimerEvent: {}
+[15.986462] (-) TimerEvent: {}
+[16.087153] (-) TimerEvent: {}
+[16.187801] (-) TimerEvent: {}
+[16.290282] (-) TimerEvent: {}
+[16.391361] (-) TimerEvent: {}
+[16.454979] (mpc) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mpc_node\x1b[0m\n'}
+[16.491544] (-) TimerEvent: {}
+[16.591984] (-) TimerEvent: {}
+[16.692489] (-) TimerEvent: {}
+[16.793945] (-) TimerEvent: {}
+[16.900939] (-) TimerEvent: {}
+[17.001860] (-) TimerEvent: {}
+[17.079152] (mpc) StdoutLine: {'line': b'[100%] Built target mpc_node\n'}
+[17.108696] (-) TimerEvent: {}
+[17.130974] (mpc) CommandEnded: {'returncode': 0}
+[17.209281] (-) TimerEvent: {}
+[17.226843] (mpc) JobProgress: {'identifier': 'mpc', 'progress': 'install'}
+[17.253567] (mpc) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lionelliu/sim_ws/build/mpc'], 'cwd': '/home/lionelliu/sim_ws/build/mpc', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/mpc'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[17.276378] (mpc) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.277683] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node\n'}
+[17.286754] (mpc) StdoutLine: {'line': b'-- Set runtime path of "/home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node" to ""\n'}
+[17.287419] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh\n'}
+[17.289022] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv\n'}
+[17.290410] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc\n'}
+[17.292450] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py\n'}
+[17.309393] (-) TimerEvent: {}
+[17.415078] (-) TimerEvent: {}
+[17.455096] (mpc) StdoutLine: {'line': b"Listing '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...\n"}
+[17.455338] (mpc) StdoutLine: {'line': b"Compiling '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py'...\n"}
+[17.462792] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node.py\n'}
+[17.466502] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc\n'}
+[17.468337] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc\n'}
+[17.477717] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh\n'}
+[17.478944] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv\n'}
+[17.480684] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.sh\n'}
+[17.481908] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.dsv\n'}
+[17.483133] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.bash\n'}
+[17.484395] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.sh\n'}
+[17.486153] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.zsh\n'}
+[17.487529] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.dsv\n'}
+[17.489143] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.dsv\n'}
+[17.491016] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc\n'}
+[17.492769] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake\n'}
+[17.494456] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake\n'}
+[17.495887] (mpc) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.xml\n'}
+[17.507981] (mpc) CommandEnded: {'returncode': 0}
+[17.515205] (-) TimerEvent: {}
+[17.615765] (-) TimerEvent: {}
+[17.648695] (mpc) JobEnded: {'identifier': 'mpc', 'rc': 0}
+[17.650183] (pure_pursuit) JobStarted: {'identifier': 'pure_pursuit'}
+[17.711498] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'cmake'}
+[17.712136] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '/home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit', '-DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/pure_pursuit'], 'cwd': '/home/lionelliu/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[17.723065] (-) TimerEvent: {}
+[17.826287] (-) TimerEvent: {}
+[17.927377] (-) TimerEvent: {}
+[18.027796] (-) TimerEvent: {}
+[18.128402] (-) TimerEvent: {}
+[18.138728] (pure_pursuit) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[18.229068] (-) TimerEvent: {}
+[18.293942] (pure_pursuit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[18.329305] (-) TimerEvent: {}
+[18.336459] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[18.430229] (-) TimerEvent: {}
+[18.531103] (-) TimerEvent: {}
+[18.632217] (-) TimerEvent: {}
+[18.733292] (-) TimerEvent: {}
+[18.745005] (pure_pursuit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[18.755811] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[18.834024] (-) TimerEvent: {}
+[18.934412] (-) TimerEvent: {}
+[19.035391] (-) TimerEvent: {}
+[19.137967] (-) TimerEvent: {}
+[19.238885] (-) TimerEvent: {}
+[19.272007] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[19.315712] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[19.317250] (pure_pursuit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[19.332553] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[19.339049] (-) TimerEvent: {}
+[19.457149] (-) TimerEvent: {}
+[19.558845] (-) TimerEvent: {}
+[19.662435] (-) TimerEvent: {}
+[19.763142] (-) TimerEvent: {}
+[19.861731] (pure_pursuit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[19.866018] (-) TimerEvent: {}
+[19.866574] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[19.968850] (-) TimerEvent: {}
+[20.025513] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RRT::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.025878] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:34:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kscan_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.026035] (lab6_pkg) StderrLine: {'line': b'   34 | void RRT::scan_callback(\x1b[01;35m\x1b[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg\x1b[m\x1b[K) {\n'}
+[20.026167] (lab6_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[20.045226] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RRT::pose_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.045492] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:44:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kpose_msg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.045674] (lab6_pkg) StderrLine: {'line': b'   44 | void RRT::pose_callback(\x1b[01;35m\x1b[Kconst nav_msgs::msg::Odometry::ConstSharedPtr pose_msg\x1b[m\x1b[K) {\n'}
+[20.045806] (lab6_pkg) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[20.046543] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kint RRT::nearest(std::vector<RRT_Node>&, std::vector<double>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.046715] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:80:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.046854] (lab6_pkg) StderrLine: {'line': b'   80 | int RRT::nearest(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, std::vector<double> &sampled_point) {\n'}
+[20.046977] (lab6_pkg) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.047132] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:80:68:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksampled_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.047260] (lab6_pkg) StderrLine: {'line': b'   80 | int RRT::nearest(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[Kstd::vector<double> &sampled_point\x1b[m\x1b[K) {\n'}
+[20.047393] (lab6_pkg) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.047889] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KRRT_Node RRT::steer(RRT_Node&, std::vector<double>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.048044] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:94:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knearest_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.048167] (lab6_pkg) StderrLine: {'line': b'   94 | RRT_Node RRT::steer(\x1b[01;35m\x1b[KRRT_Node &nearest_node\x1b[m\x1b[K, std::vector<double> &sampled_point) {\n'}
+[20.048288] (lab6_pkg) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.048432] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:94:66:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ksampled_point\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.048572] (lab6_pkg) StderrLine: {'line': b'   94 | RRT_Node RRT::steer(RRT_Node &nearest_node, \x1b[01;35m\x1b[Kstd::vector<double> &sampled_point\x1b[m\x1b[K) {\n'}
+[20.048690] (lab6_pkg) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.048965] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool RRT::check_collision(RRT_Node&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.049289] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:114:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knearest_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.049416] (lab6_pkg) StderrLine: {'line': b'  114 | bool RRT::check_collision(\x1b[01;35m\x1b[KRRT_Node &nearest_node\x1b[m\x1b[K, RRT_Node &new_node) {\n'}
+[20.049530] (lab6_pkg) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.049815] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:114:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knew_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.049950] (lab6_pkg) StderrLine: {'line': b'  114 | bool RRT::check_collision(RRT_Node &nearest_node, \x1b[01;35m\x1b[KRRT_Node &new_node\x1b[m\x1b[K) {\n'}
+[20.050477] (lab6_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[20.050886] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool RRT::is_goal(RRT_Node&, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.051034] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:129:29:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klatest_added_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.051155] (lab6_pkg) StderrLine: {'line': b'  129 | bool RRT::is_goal(\x1b[01;35m\x1b[KRRT_Node &latest_added_node\x1b[m\x1b[K, double goal_x, double goal_y) {\n'}
+[20.051398] (lab6_pkg) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.051564] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:129:55:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_x\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.051685] (lab6_pkg) StderrLine: {'line': b'  129 | bool RRT::is_goal(RRT_Node &latest_added_node, \x1b[01;35m\x1b[Kdouble goal_x\x1b[m\x1b[K, double goal_y) {\n'}
+[20.051800] (lab6_pkg) StderrLine: {'line': b'      |                                                \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[20.052308] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:129:70:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_y\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.052482] (lab6_pkg) StderrLine: {'line': b'  129 | bool RRT::is_goal(RRT_Node &latest_added_node, double goal_x, \x1b[01;35m\x1b[Kdouble goal_y\x1b[m\x1b[K) {\n'}
+[20.052946] (lab6_pkg) StderrLine: {'line': b'      |                                                               \x1b[01;35m\x1b[K~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[20.054327] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<RRT_Node> RRT::find_path(std::vector<RRT_Node>&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.054525] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:146:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.054658] (lab6_pkg) StderrLine: {'line': b'  146 | std::vector<RRT_Node> RRT::find_path(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, RRT_Node &latest_added_node) {\n'}
+[20.054777] (lab6_pkg) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.054947] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:146:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Klatest_added_node\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.055079] (lab6_pkg) StderrLine: {'line': b'  146 | std::vector<RRT_Node> RRT::find_path(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[KRRT_Node &latest_added_node\x1b[m\x1b[K) {\n'}
+[20.055200] (lab6_pkg) StderrLine: {'line': b'      |                                                                   \x1b[01;35m\x1b[K~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[20.055495] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble RRT::cost(std::vector<RRT_Node>&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.055783] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:163:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.055959] (lab6_pkg) StderrLine: {'line': b'  163 | double RRT::cost(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, RRT_Node &node) {\n'}
+[20.056081] (lab6_pkg) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.056233] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:163:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.056369] (lab6_pkg) StderrLine: {'line': b'  163 | double RRT::cost(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[KRRT_Node &node\x1b[m\x1b[K) {\n'}
+[20.056677] (lab6_pkg) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.057393] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble RRT::line_cost(RRT_Node&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.057548] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:177:33:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn1\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.057665] (lab6_pkg) StderrLine: {'line': b'  177 | double RRT::line_cost(\x1b[01;35m\x1b[KRRT_Node &n1\x1b[m\x1b[K, RRT_Node &n2) {\n'}
+[20.057780] (lab6_pkg) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[20.057958] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:177:47:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kn2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.058314] (lab6_pkg) StderrLine: {'line': b'  177 | double RRT::line_cost(RRT_Node &n1, \x1b[01;35m\x1b[KRRT_Node &n2\x1b[m\x1b[K) {\n'}
+[20.058449] (lab6_pkg) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[20.070731] (-) TimerEvent: {}
+[20.079141] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int> RRT::near(std::vector<RRT_Node>&, RRT_Node&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.079441] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:191:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktree\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.079824] (lab6_pkg) StderrLine: {'line': b'  191 | std::vector<int> RRT::near(\x1b[01;35m\x1b[Kstd::vector<RRT_Node> &tree\x1b[m\x1b[K, RRT_Node &node) {\n'}
+[20.079961] (lab6_pkg) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.080124] (lab6_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:191:67:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[20.080244] (lab6_pkg) StderrLine: {'line': b'  191 | std::vector<int> RRT::near(std::vector<RRT_Node> &tree, \x1b[01;35m\x1b[KRRT_Node &node\x1b[m\x1b[K) {\n'}
+[20.080357] (lab6_pkg) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[20.171202] (-) TimerEvent: {}
+[20.272750] (-) TimerEvent: {}
+[20.322117] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[20.373156] (-) TimerEvent: {}
+[20.411465] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[20.411903] (pure_pursuit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[20.463641] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[20.473354] (-) TimerEvent: {}
+[20.579534] (-) TimerEvent: {}
+[20.593372] (pure_pursuit) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[20.593923] (pure_pursuit) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[20.680623] (-) TimerEvent: {}
+[20.781186] (-) TimerEvent: {}
+[20.881673] (-) TimerEvent: {}
+[20.982122] (-) TimerEvent: {}
+[21.082579] (-) TimerEvent: {}
+[21.183416] (-) TimerEvent: {}
+[21.283846] (-) TimerEvent: {}
+[21.384370] (-) TimerEvent: {}
+[21.485170] (-) TimerEvent: {}
+[21.585875] (-) TimerEvent: {}
+[21.686355] (-) TimerEvent: {}
+[21.752764] (pure_pursuit) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[21.786621] (-) TimerEvent: {}
+[21.889448] (-) TimerEvent: {}
+[21.935814] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[21.959022] (pure_pursuit) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[21.989711] (-) TimerEvent: {}
+[22.092142] (-) TimerEvent: {}
+[22.192570] (-) TimerEvent: {}
+[22.296805] (-) TimerEvent: {}
+[22.306387] (pure_pursuit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[22.399557] (-) TimerEvent: {}
+[22.441091] (pure_pursuit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[22.499749] (-) TimerEvent: {}
+[22.600222] (-) TimerEvent: {}
+[22.700620] (-) TimerEvent: {}
+[22.801174] (-) TimerEvent: {}
+[22.840371] (pure_pursuit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.901416] (-) TimerEvent: {}
+[23.001965] (-) TimerEvent: {}
+[23.103353] (-) TimerEvent: {}
+[23.163664] (pure_pursuit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[23.167888] (pure_pursuit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[23.178294] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[23.209375] (-) TimerEvent: {}
+[23.311459] (-) TimerEvent: {}
+[23.413715] (-) TimerEvent: {}
+[23.515472] (-) TimerEvent: {}
+[23.617671] (-) TimerEvent: {}
+[23.623256] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[23.628220] (pure_pursuit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[23.718077] (-) TimerEvent: {}
+[23.818484] (-) TimerEvent: {}
+[23.918943] (-) TimerEvent: {}
+[24.014936] (pure_pursuit) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[24.015136] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[24.019444] (-) TimerEvent: {}
+[24.119975] (-) TimerEvent: {}
+[24.221193] (-) TimerEvent: {}
+[24.322262] (-) TimerEvent: {}
+[24.397044] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[24.398790] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[24.422878] (-) TimerEvent: {}
+[24.524065] (-) TimerEvent: {}
+[24.624485] (-) TimerEvent: {}
+[24.725107] (-) TimerEvent: {}
+[24.821325] (pure_pursuit) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[24.823139] (pure_pursuit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[24.825453] (-) TimerEvent: {}
+[24.929503] (-) TimerEvent: {}
+[25.031570] (-) TimerEvent: {}
+[25.132413] (-) TimerEvent: {}
+[25.234001] (-) TimerEvent: {}
+[25.334727] (-) TimerEvent: {}
+[25.435309] (-) TimerEvent: {}
+[25.476901] (pure_pursuit) StdoutLine: {'line': b'-- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)\n'}
+[25.485938] (pure_pursuit) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[25.537214] (-) TimerEvent: {}
+[25.620321] (pure_pursuit) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[25.637428] (-) TimerEvent: {}
+[25.740648] (-) TimerEvent: {}
+[25.841988] (-) TimerEvent: {}
+[25.951870] (-) TimerEvent: {}
+[25.954115] (pure_pursuit) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)\n'}
+[26.053764] (-) TimerEvent: {}
+[26.121583] (pure_pursuit) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[26.160197] (-) TimerEvent: {}
+[26.260819] (-) TimerEvent: {}
+[26.366615] (-) TimerEvent: {}
+[26.483599] (-) TimerEvent: {}
+[26.566825] (pure_pursuit) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[26.597694] (-) TimerEvent: {}
+[26.705762] (-) TimerEvent: {}
+[26.807438] (-) TimerEvent: {}
+[26.843217] (pure_pursuit) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[26.913221] (-) TimerEvent: {}
+[27.014082] (-) TimerEvent: {}
+[27.116070] (-) TimerEvent: {}
+[27.222154] (-) TimerEvent: {}
+[27.327001] (-) TimerEvent: {}
+[27.428115] (-) TimerEvent: {}
+[27.532589] (-) TimerEvent: {}
+[27.633271] (-) TimerEvent: {}
+[27.741576] (-) TimerEvent: {}
+[27.847838] (-) TimerEvent: {}
+[27.953914] (-) TimerEvent: {}
+[28.065284] (-) TimerEvent: {}
+[28.171839] (-) TimerEvent: {}
+[28.272728] (-) TimerEvent: {}
+[28.374039] (-) TimerEvent: {}
+[28.474980] (-) TimerEvent: {}
+[28.592473] (-) TimerEvent: {}
+[28.695486] (-) TimerEvent: {}
+[28.796120] (-) TimerEvent: {}
+[28.896527] (-) TimerEvent: {}
+[28.996931] (-) TimerEvent: {}
+[29.098363] (-) TimerEvent: {}
+[29.199084] (-) TimerEvent: {}
+[29.302341] (-) TimerEvent: {}
+[29.402872] (-) TimerEvent: {}
+[29.503326] (-) TimerEvent: {}
+[29.603907] (-) TimerEvent: {}
+[29.707610] (-) TimerEvent: {}
+[29.743612] (pure_pursuit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[29.815571] (-) TimerEvent: {}
+[29.918268] (-) TimerEvent: {}
+[30.019861] (-) TimerEvent: {}
+[30.120359] (-) TimerEvent: {}
+[30.194105] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[30.213423] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[30.214643] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit/include\n'}
+[30.215065] (pure_pursuit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[30.221164] (-) TimerEvent: {}
+[30.225413] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[30.225747] (pure_pursuit) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[30.229692] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[30.235789] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[30.248535] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[30.254206] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[30.254482] (pure_pursuit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[30.257541] (pure_pursuit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[30.301513] (pure_pursuit) StdoutLine: {'line': b'-- Configuring done\n'}
+[30.321979] (-) TimerEvent: {}
+[30.389305] (pure_pursuit) StdoutLine: {'line': b'-- Generating done\n'}
+[30.407485] (pure_pursuit) StdoutLine: {'line': b'-- Build files have been written to: /home/lionelliu/sim_ws/build/pure_pursuit\n'}
+[30.423432] (-) TimerEvent: {}
+[30.475214] (pure_pursuit) CommandEnded: {'returncode': 0}
+[30.483947] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'build'}
+[30.484019] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/lionelliu/sim_ws/build/pure_pursuit', '--', '-j2', '-l2'], 'cwd': '/home/lionelliu/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[30.523604] (-) TimerEvent: {}
+[30.626224] (-) TimerEvent: {}
+[30.726727] (-) TimerEvent: {}
+[30.839729] (-) TimerEvent: {}
+[30.948190] (-) TimerEvent: {}
+[31.058006] (-) TimerEvent: {}
+[31.158938] (-) TimerEvent: {}
+[31.259704] (-) TimerEvent: {}
+[31.379688] (-) TimerEvent: {}
+[31.399176] (pure_pursuit) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pure_pursuit_node\x1b[0m\n'}
+[31.465123] (-) TimerEvent: {}
+[31.566016] (-) TimerEvent: {}
+[31.667457] (-) TimerEvent: {}
+[31.767812] (-) TimerEvent: {}
+[31.862869] (pure_pursuit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pure_pursuit_node.dir/src/pure_pursuit_node.cpp.o\x1b[0m\n'}
+[31.883538] (-) TimerEvent: {}
+[31.983934] (-) TimerEvent: {}
+[32.089109] (-) TimerEvent: {}
+[32.190316] (-) TimerEvent: {}
+[32.290777] (-) TimerEvent: {}
+[32.393592] (-) TimerEvent: {}
+[32.504959] (-) TimerEvent: {}
+[32.613768] (-) TimerEvent: {}
+[32.730304] (-) TimerEvent: {}
+[32.835342] (-) TimerEvent: {}
+[32.944941] (-) TimerEvent: {}
+[33.045567] (-) TimerEvent: {}
+[33.160487] (-) TimerEvent: {}
+[33.264420] (-) TimerEvent: {}
+[33.368025] (-) TimerEvent: {}
+[33.475379] (-) TimerEvent: {}
+[33.579550] (-) TimerEvent: {}
+[33.698123] (-) TimerEvent: {}
+[33.822312] (-) TimerEvent: {}
+[33.923080] (-) TimerEvent: {}
+[34.033046] (-) TimerEvent: {}
+[34.144690] (-) TimerEvent: {}
+[34.246874] (-) TimerEvent: {}
+[34.349326] (-) TimerEvent: {}
+[34.449948] (-) TimerEvent: {}
+[34.551662] (-) TimerEvent: {}
+[34.653782] (-) TimerEvent: {}
+[34.754353] (-) TimerEvent: {}
+[34.865337] (-) TimerEvent: {}
+[34.967629] (-) TimerEvent: {}
+[35.070971] (-) TimerEvent: {}
+[35.171747] (-) TimerEvent: {}
+[35.277638] (-) TimerEvent: {}
+[35.391604] (-) TimerEvent: {}
+[35.497454] (-) TimerEvent: {}
+[35.602320] (-) TimerEvent: {}
+[35.703101] (-) TimerEvent: {}
+[35.803759] (-) TimerEvent: {}
+[35.904725] (-) TimerEvent: {}
+[36.005606] (-) TimerEvent: {}
+[36.114156] (-) TimerEvent: {}
+[36.215919] (-) TimerEvent: {}
+[36.318348] (-) TimerEvent: {}
+[36.423461] (-) TimerEvent: {}
+[36.524041] (-) TimerEvent: {}
+[36.627690] (-) TimerEvent: {}
+[36.728433] (-) TimerEvent: {}
+[36.829285] (-) TimerEvent: {}
+[36.933674] (-) TimerEvent: {}
+[37.047987] (-) TimerEvent: {}
+[37.150416] (-) TimerEvent: {}
+[37.252826] (-) TimerEvent: {}
+[37.353413] (-) TimerEvent: {}
+[37.453767] (-) TimerEvent: {}
+[37.554151] (-) TimerEvent: {}
+[37.654757] (-) TimerEvent: {}
+[37.755604] (-) TimerEvent: {}
+[37.855949] (-) TimerEvent: {}
+[37.960113] (-) TimerEvent: {}
+[38.062844] (-) TimerEvent: {}
+[38.163311] (-) TimerEvent: {}
+[38.263701] (-) TimerEvent: {}
+[38.365068] (-) TimerEvent: {}
+[38.474236] (-) TimerEvent: {}
+[38.576186] (-) TimerEvent: {}
+[38.676749] (-) TimerEvent: {}
+[38.777218] (-) TimerEvent: {}
+[38.877921] (-) TimerEvent: {}
+[38.980008] (-) TimerEvent: {}
+[39.082141] (-) TimerEvent: {}
+[39.182944] (-) TimerEvent: {}
+[39.294947] (-) TimerEvent: {}
+[39.395575] (-) TimerEvent: {}
+[39.496027] (-) TimerEvent: {}
+[39.596496] (-) TimerEvent: {}
+[39.697080] (-) TimerEvent: {}
+[39.815411] (-) TimerEvent: {}
+[39.955369] (-) TimerEvent: {}
+[40.140735] (-) TimerEvent: {}
+[40.245011] (-) TimerEvent: {}
+[40.346444] (-) TimerEvent: {}
+[40.450329] (-) TimerEvent: {}
+[40.554719] (-) TimerEvent: {}
+[40.663111] (-) TimerEvent: {}
+[40.780534] (-) TimerEvent: {}
+[41.110375] (-) TimerEvent: {}
+[41.319968] (-) TimerEvent: {}
+[41.437933] (-) TimerEvent: {}
+[41.567770] (-) TimerEvent: {}
+[41.979170] (-) TimerEvent: {}
+[42.506017] (-) TimerEvent: {}
+[42.755593] (-) TimerEvent: {}
+[42.911639] (-) TimerEvent: {}
+[43.174894] (-) TimerEvent: {}
+[43.411379] (-) TimerEvent: {}
+[43.565935] (-) TimerEvent: {}
+[43.705123] (-) TimerEvent: {}
+[43.933464] (-) TimerEvent: {}
+[44.122275] (-) TimerEvent: {}
+[44.236305] (-) TimerEvent: {}
+[44.339653] (-) TimerEvent: {}
+[44.454099] (-) TimerEvent: {}
+[44.563372] (-) TimerEvent: {}
+[44.701989] (-) TimerEvent: {}
+[44.895561] (-) TimerEvent: {}
+[46.472805] (-) TimerEvent: {}
+[46.839351] (-) TimerEvent: {}
+[47.965805] (-) TimerEvent: {}
+[48.117760] (-) TimerEvent: {}
+[48.329762] (-) TimerEvent: {}
+[48.602044] (-) TimerEvent: {}
+[48.825154] (-) TimerEvent: {}
+[49.128626] (-) TimerEvent: {}
+[49.430121] (-) TimerEvent: {}
+[49.670092] (-) TimerEvent: {}
+[50.009227] (-) TimerEvent: {}
+[50.201519] (-) TimerEvent: {}
+[50.323692] (-) TimerEvent: {}
+[50.569097] (-) TimerEvent: {}
+[50.858846] (-) TimerEvent: {}
+[51.114176] (-) TimerEvent: {}
+[51.343997] (-) TimerEvent: {}
+[51.632780] (-) TimerEvent: {}
+[52.001291] (-) TimerEvent: {}
+[52.179394] (-) TimerEvent: {}
+[53.134365] (-) TimerEvent: {}
+[53.553556] (-) TimerEvent: {}
+[53.846407] (-) TimerEvent: {}
+[54.249787] (-) TimerEvent: {}
+[54.688207] (-) TimerEvent: {}
+[55.191949] (-) TimerEvent: {}
+[55.477053] (-) TimerEvent: {}
+[56.412602] (-) TimerEvent: {}
+[56.700462] (-) TimerEvent: {}
+[56.855959] (-) TimerEvent: {}
+[57.348203] (-) TimerEvent: {}
+[57.563914] (-) TimerEvent: {}
+[57.866742] (-) TimerEvent: {}
+[58.374234] (-) TimerEvent: {}
+[58.510688] (-) TimerEvent: {}
+[58.773582] (-) TimerEvent: {}
+[59.034827] (-) TimerEvent: {}
+[59.349711] (-) TimerEvent: {}
+[59.541617] (-) TimerEvent: {}
+[60.740144] (-) TimerEvent: {}
+[61.168085] (-) TimerEvent: {}
+[61.465723] (-) TimerEvent: {}
+[61.741129] (-) TimerEvent: {}
+[62.958424] (-) TimerEvent: {}
+[64.341297] (-) TimerEvent: {}
+[64.888056] (-) TimerEvent: {}
+[65.413969] (-) TimerEvent: {}
+[66.434718] (-) TimerEvent: {}
+[67.287189] (-) TimerEvent: {}
+[67.771270] (-) TimerEvent: {}
+[68.070117] (-) TimerEvent: {}
+[68.509238] (-) TimerEvent: {}
+[68.838096] (-) TimerEvent: {}
+[69.194058] (-) TimerEvent: {}
+[69.383759] (-) TimerEvent: {}
+[69.524065] (-) TimerEvent: {}
+[69.644423] (-) TimerEvent: {}
+[69.947916] (-) TimerEvent: {}
+[70.320894] (-) TimerEvent: {}
+[70.490768] (-) TimerEvent: {}
+[70.852158] (-) TimerEvent: {}
+[71.089178] (-) TimerEvent: {}
+[71.282013] (-) TimerEvent: {}
+[71.399125] (-) TimerEvent: {}
+[71.580939] (-) TimerEvent: {}
+[72.441363] (-) TimerEvent: {}
+[73.058179] (-) TimerEvent: {}
+[73.491548] (-) TimerEvent: {}
+[73.795621] (-) TimerEvent: {}
+[74.302954] (-) TimerEvent: {}
+[74.699642] (-) TimerEvent: {}
+[74.921366] (-) TimerEvent: {}
+[75.156754] (-) TimerEvent: {}
+[76.591621] (-) TimerEvent: {}
+[76.947386] (-) TimerEvent: {}
+[77.050984] (-) TimerEvent: {}
+[77.444651] (-) TimerEvent: {}
+[78.242972] (-) TimerEvent: {}
+[78.515240] (-) TimerEvent: {}
+[79.055357] (-) TimerEvent: {}
+[79.377518] (-) TimerEvent: {}
+[79.702915] (-) TimerEvent: {}
+[80.581962] (-) TimerEvent: {}
+[82.251899] (-) TimerEvent: {}
+[82.388688] (-) TimerEvent: {}
+[82.984589] (-) TimerEvent: {}
+[84.253927] (-) TimerEvent: {}
+[84.911759] (-) TimerEvent: {}
+[87.186733] (-) TimerEvent: {}
+[88.126700] (-) TimerEvent: {}
+[88.416843] (-) TimerEvent: {}
+[89.037652] (-) TimerEvent: {}
+[89.759671] (-) TimerEvent: {}
+[89.991931] (-) TimerEvent: {}
+[90.241261] (-) TimerEvent: {}
+[90.667093] (-) TimerEvent: {}
+[91.543471] (-) TimerEvent: {}
+[91.743022] (-) TimerEvent: {}
+[92.333176] (-) TimerEvent: {}
+[92.608818] (-) TimerEvent: {}
+[92.932927] (-) TimerEvent: {}
+[93.192838] (-) TimerEvent: {}
+[93.556028] (-) TimerEvent: {}
+[93.964340] (-) TimerEvent: {}
+[94.887633] (-) TimerEvent: {}
+[97.423417] (-) TimerEvent: {}
+[97.613982] (-) TimerEvent: {}
+[98.158172] (-) TimerEvent: {}
+[98.283291] (-) TimerEvent: {}
+[99.159636] (-) TimerEvent: {}
+[101.147422] (-) TimerEvent: {}
+[102.161793] (-) TimerEvent: {}
+[102.552058] (-) TimerEvent: {}
+[103.088186] (-) TimerEvent: {}
+[103.346219] (-) TimerEvent: {}
+[103.838906] (-) TimerEvent: {}
+[104.877719] (-) TimerEvent: {}
+[106.086857] (-) TimerEvent: {}
+[106.187676] (-) TimerEvent: {}
+[106.288394] (-) TimerEvent: {}
+[106.389755] (-) TimerEvent: {}
+[106.491859] (-) TimerEvent: {}
+[106.594078] (-) TimerEvent: {}
+[106.695260] (-) TimerEvent: {}
+[106.795715] (-) TimerEvent: {}
+[106.897228] (-) TimerEvent: {}
+[106.999551] (-) TimerEvent: {}
+[107.103677] (-) TimerEvent: {}
+[107.204166] (-) TimerEvent: {}
+[107.310577] (-) TimerEvent: {}
+[107.411456] (-) TimerEvent: {}
+[107.513838] (-) TimerEvent: {}
+[107.618768] (-) TimerEvent: {}
+[107.719304] (-) TimerEvent: {}
+[107.819700] (-) TimerEvent: {}
+[107.920205] (-) TimerEvent: {}
+[108.020926] (-) TimerEvent: {}
+[108.121504] (-) TimerEvent: {}
+[108.221897] (-) TimerEvent: {}
+[108.330918] (-) TimerEvent: {}
+[108.450662] (-) TimerEvent: {}
+[108.551166] (-) TimerEvent: {}
+[108.651844] (-) TimerEvent: {}
+[108.759474] (-) TimerEvent: {}
+[108.861356] (-) TimerEvent: {}
+[108.962021] (-) TimerEvent: {}
+[109.062427] (-) TimerEvent: {}
+[109.163412] (-) TimerEvent: {}
+[109.263945] (-) TimerEvent: {}
+[109.376339] (-) TimerEvent: {}
+[109.486595] (-) TimerEvent: {}
+[109.590476] (-) TimerEvent: {}
+[109.694732] (-) TimerEvent: {}
+[109.795358] (-) TimerEvent: {}
+[109.895831] (-) TimerEvent: {}
+[109.997719] (-) TimerEvent: {}
+[110.109287] (-) TimerEvent: {}
+[110.209745] (-) TimerEvent: {}
+[110.310178] (-) TimerEvent: {}
+[110.410986] (-) TimerEvent: {}
+[110.515898] (-) TimerEvent: {}
+[110.616565] (-) TimerEvent: {}
+[110.719861] (-) TimerEvent: {}
+[110.822383] (-) TimerEvent: {}
+[110.922971] (-) TimerEvent: {}
+[111.023408] (-) TimerEvent: {}
+[111.123858] (-) TimerEvent: {}
+[111.130341] (lab6_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rrt_node\x1b[0m\n'}
+[111.224391] (-) TimerEvent: {}
+[111.324840] (-) TimerEvent: {}
+[111.426111] (-) TimerEvent: {}
+[111.527363] (-) TimerEvent: {}
+[111.627732] (-) TimerEvent: {}
+[111.728136] (-) TimerEvent: {}
+[111.828595] (-) TimerEvent: {}
+[111.929596] (-) TimerEvent: {}
+[112.030421] (-) TimerEvent: {}
+[112.131147] (-) TimerEvent: {}
+[112.231778] (-) TimerEvent: {}
+[112.332265] (-) TimerEvent: {}
+[112.432856] (-) TimerEvent: {}
+[112.533291] (-) TimerEvent: {}
+[112.633806] (-) TimerEvent: {}
+[112.660379] (lab6_pkg) StdoutLine: {'line': b'[100%] Built target rrt_node\n'}
+[112.715007] (lab6_pkg) CommandEnded: {'returncode': 0}
+[112.734055] (-) TimerEvent: {}
+[112.832082] (lab6_pkg) JobProgress: {'identifier': 'lab6_pkg', 'progress': 'install'}
+[112.832495] (lab6_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lionelliu/sim_ws/build/lab6_pkg'], 'cwd': '/home/lionelliu/sim_ws/build/lab6_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/lab6_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[112.834679] (-) TimerEvent: {}
+[112.867506] (lab6_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[112.867757] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node\n'}
+[112.875750] (lab6_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node" to ""\n'}
+[112.878412] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/pythonpath.sh\n'}
+[112.878578] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/pythonpath.dsv\n'}
+[112.879775] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg\n'}
+[112.882666] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg/__init__.py\n'}
+[112.934996] (-) TimerEvent: {}
+[113.035455] (-) TimerEvent: {}
+[113.049990] (lab6_pkg) StdoutLine: {'line': b"Listing '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg'...\n"}
+[113.050191] (lab6_pkg) StdoutLine: {'line': b"Compiling '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg/__init__.py'...\n"}
+[113.058023] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node.py\n'}
+[113.063093] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/package_run_dependencies/lab6_pkg\n'}
+[113.063551] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/parent_prefix_path/lab6_pkg\n'}
+[113.070386] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/ament_prefix_path.sh\n'}
+[113.070751] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/ament_prefix_path.dsv\n'}
+[113.071511] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/path.sh\n'}
+[113.073828] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/path.dsv\n'}
+[113.074577] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.bash\n'}
+[113.075251] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.sh\n'}
+[113.075666] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.zsh\n'}
+[113.075990] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.dsv\n'}
+[113.077931] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.dsv\n'}
+[113.079525] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/packages/lab6_pkg\n'}
+[113.079715] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/cmake/lab6_pkgConfig.cmake\n'}
+[113.081928] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/cmake/lab6_pkgConfig-version.cmake\n'}
+[113.082824] (lab6_pkg) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.xml\n'}
+[113.091777] (lab6_pkg) CommandEnded: {'returncode': 0}
+[113.135939] (-) TimerEvent: {}
+[113.230662] (lab6_pkg) JobEnded: {'identifier': 'lab6_pkg', 'rc': 0}
+[113.235948] (-) TimerEvent: {}
+[113.336662] (-) TimerEvent: {}
+[113.439576] (-) TimerEvent: {}
+[113.540726] (-) TimerEvent: {}
+[113.641827] (-) TimerEvent: {}
+[113.742454] (-) TimerEvent: {}
+[113.844063] (-) TimerEvent: {}
+[113.944469] (-) TimerEvent: {}
+[114.045012] (-) TimerEvent: {}
+[114.145977] (-) TimerEvent: {}
+[114.246608] (-) TimerEvent: {}
+[114.347067] (-) TimerEvent: {}
+[114.447412] (-) TimerEvent: {}
+[114.547790] (-) TimerEvent: {}
+[114.648255] (-) TimerEvent: {}
+[114.748815] (-) TimerEvent: {}
+[114.849368] (-) TimerEvent: {}
+[114.950090] (-) TimerEvent: {}
+[115.050770] (-) TimerEvent: {}
+[115.151544] (-) TimerEvent: {}
+[115.251966] (-) TimerEvent: {}
+[115.352507] (-) TimerEvent: {}
+[115.398653] (pure_pursuit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pure_pursuit_node\x1b[0m\n'}
+[115.453006] (-) TimerEvent: {}
+[115.553363] (-) TimerEvent: {}
+[115.653792] (-) TimerEvent: {}
+[115.754167] (-) TimerEvent: {}
+[115.845044] (pure_pursuit) StdoutLine: {'line': b'[100%] Built target pure_pursuit_node\n'}
+[115.854600] (-) TimerEvent: {}
+[115.866668] (pure_pursuit) CommandEnded: {'returncode': 0}
+[115.925625] (pure_pursuit) JobProgress: {'identifier': 'pure_pursuit', 'progress': 'install'}
+[115.925836] (pure_pursuit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/lionelliu/sim_ws/build/pure_pursuit'], 'cwd': '/home/lionelliu/sim_ws/build/pure_pursuit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lionelliu'), ('SSH_AGENT_PID', '1434'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/lionelliu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1329'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/lionelliu/sim_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'lionelliu'), ('JOURNAL_STREAM', '8:50415'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lionelliu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/lionelliu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1469,unix/ubuntu:/tmp/.ICE-unix/1469'), ('INVOCATION_ID', 'a69ee839c74747d3ab48189ad2e52f14'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e4c151a5_5fe8_48dc_adf6_48e548691b8c'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.564'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lionelliu/sim_ws/build/pure_pursuit'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/lionelliu/sim_ws/install/mpc:/home/lionelliu/sim_ws/install/pure_pursuit:/home/lionelliu/sim_ws/install/lab6_pkg:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy')]), 'shell': False}
+[115.950041] (pure_pursuit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[115.951942] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node\n'}
+[115.954759] (-) TimerEvent: {}
+[115.971236] (pure_pursuit) StdoutLine: {'line': b'-- Set runtime path of "/home/lionelliu/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node" to ""\n'}
+[115.972424] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.sh\n'}
+[115.974295] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/pythonpath.dsv\n'}
+[115.976359] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit\n'}
+[115.978574] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py\n'}
+[116.030324] (pure_pursuit) StdoutLine: {'line': b"Listing '/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit'...\n"}
+[116.030517] (pure_pursuit) StdoutLine: {'line': b"Compiling '/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages/pure_pursuit/__init__.py'...\n"}
+[116.035645] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/lib/pure_pursuit/pure_pursuit_node.py\n'}
+[116.045673] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/ament_index/resource_index/package_run_dependencies/pure_pursuit\n'}
+[116.048185] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/ament_index/resource_index/parent_prefix_path/pure_pursuit\n'}
+[116.050187] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.sh\n'}
+[116.051274] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/ament_prefix_path.dsv\n'}
+[116.053551] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.sh\n'}
+[116.054581] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/environment/path.dsv\n'}
+[116.054734] (-) TimerEvent: {}
+[116.056243] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.bash\n'}
+[116.057488] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.sh\n'}
+[116.060453] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.zsh\n'}
+[116.061957] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/local_setup.dsv\n'}
+[116.063198] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv\n'}
+[116.067608] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/ament_index/resource_index/packages/pure_pursuit\n'}
+[116.069518] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig.cmake\n'}
+[116.071621] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/cmake/pure_pursuitConfig-version.cmake\n'}
+[116.073879] (pure_pursuit) StdoutLine: {'line': b'-- Installing: /home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.xml\n'}
+[116.085349] (pure_pursuit) CommandEnded: {'returncode': 0}
+[116.156320] (-) TimerEvent: {}
+[116.170132] (pure_pursuit) JobEnded: {'identifier': 'pure_pursuit', 'rc': 0}
+[116.171857] (-) EventReactorShutdown: {}

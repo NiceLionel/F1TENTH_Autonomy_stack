@@ -1,0 +1,160 @@
+[0.627s] Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg -DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/lab6_pkg
+[1.745s] -- The C compiler identification is GNU 9.4.0
+[2.258s] -- The CXX compiler identification is GNU 9.4.0
+[2.292s] -- Check for working C compiler: /usr/bin/cc
+[2.599s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.604s] -- Detecting C compiler ABI info
+[3.025s] -- Detecting C compiler ABI info - done
+[3.058s] -- Detecting C compile features
+[3.068s] -- Detecting C compile features - done
+[3.074s] -- Check for working CXX compiler: /usr/bin/c++
+[3.528s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.531s] -- Detecting CXX compiler ABI info
+[3.986s] -- Detecting CXX compiler ABI info - done
+[4.012s] -- Detecting CXX compile features
+[4.014s] -- Detecting CXX compile features - done
+[4.031s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.164s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.164s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.073s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.458s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.530s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.999s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.107s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.542s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.765s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.772s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.783s] -- Looking for pthread.h
+[7.145s] -- Looking for pthread.h - found
+[7.148s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.376s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[7.376s] -- Looking for pthread_create in pthreads
+[7.612s] -- Looking for pthread_create in pthreads - not found
+[7.614s] -- Looking for pthread_create in pthread
+[7.807s] -- Looking for pthread_create in pthread - found
+[7.809s] -- Found Threads: TRUE  
+[8.294s] -- Found rclpy: 1.0.13 (/opt/ros/foxy/share/rclpy/cmake)
+[8.304s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[8.490s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[8.654s] -- Found ackermann_msgs: 2.0.2 (/opt/ros/foxy/share/ackermann_msgs/cmake)
+[8.748s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.936s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[9.126s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[9.975s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.214s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.218s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.219s] -- Configured cppcheck include dirs: /home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/include
+[10.219s] -- Configured cppcheck exclude dirs and/or files: 
+[10.226s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.226s] -- Configured cpplint exclude dirs and/or files: 
+[10.226s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.226s] -- Added test 'lint_cmake' to check CMake code style
+[10.227s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.230s] -- Added test 'uncrustify' to check C / C++ code style
+[10.230s] -- Configured uncrustify additional arguments: 
+[10.230s] -- Added test 'xmllint' to check XML markup files
+[10.242s] -- Configuring done
+[10.275s] -- Generating done
+[10.283s] -- Build files have been written to: /home/lionelliu/sim_ws/build/lab6_pkg
+[10.326s] Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake /home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg -DCMAKE_INSTALL_PREFIX=/home/lionelliu/sim_ws/install/lab6_pkg
+[10.334s] Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/lab6_pkg -- -j2 -l2
+[10.430s] [35m[1mScanning dependencies of target rrt_node[0m
+[10.651s] [ 33%] [32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt_node.cpp.o[0m
+[15.800s] [ 66%] [32mBuilding CXX object CMakeFiles/rrt_node.dir/src/rrt.cpp.o[0m
+[19.986s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kvoid RRT::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[19.986s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:34:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kscan_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.986s]    34 | void RRT::scan_callback([01;35m[Kconst sensor_msgs::msg::LaserScan::ConstSharedPtr scan_msg[m[K) {
+[19.986s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[20.006s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kvoid RRT::pose_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[20.006s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:44:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpose_msg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.006s]    44 | void RRT::pose_callback([01;35m[Kconst nav_msgs::msg::Odometry::ConstSharedPtr pose_msg[m[K) {
+[20.006s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[20.007s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kint RRT::nearest(std::vector<RRT_Node>&, std::vector<double>&)[m[K’:
+[20.007s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:80:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktree[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.007s]    80 | int RRT::nearest([01;35m[Kstd::vector<RRT_Node> &tree[m[K, std::vector<double> &sampled_point) {
+[20.007s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.007s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:80:68:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksampled_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.007s]    80 | int RRT::nearest(std::vector<RRT_Node> &tree, [01;35m[Kstd::vector<double> &sampled_point[m[K) {
+[20.008s]       |                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[20.008s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[KRRT_Node RRT::steer(RRT_Node&, std::vector<double>&)[m[K’:
+[20.008s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:94:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knearest_node[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.008s]    94 | RRT_Node RRT::steer([01;35m[KRRT_Node &nearest_node[m[K, std::vector<double> &sampled_point) {
+[20.008s]       |                     [01;35m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+[20.009s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:94:66:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ksampled_point[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.009s]    94 | RRT_Node RRT::steer(RRT_Node &nearest_node, [01;35m[Kstd::vector<double> &sampled_point[m[K) {
+[20.009s]       |                                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[20.009s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kbool RRT::check_collision(RRT_Node&, RRT_Node&)[m[K’:
+[20.010s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:114:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knearest_node[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.010s]   114 | bool RRT::check_collision([01;35m[KRRT_Node &nearest_node[m[K, RRT_Node &new_node) {
+[20.010s]       |                           [01;35m[K~~~~~~~~~~^~~~~~~~~~~~[m[K
+[20.010s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:114:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knew_node[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.011s]   114 | bool RRT::check_collision(RRT_Node &nearest_node, [01;35m[KRRT_Node &new_node[m[K) {
+[20.011s]       |                                                   [01;35m[K~~~~~~~~~~^~~~~~~~[m[K
+[20.011s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kbool RRT::is_goal(RRT_Node&, double, double)[m[K’:
+[20.011s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:129:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klatest_added_node[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.011s]   129 | bool RRT::is_goal([01;35m[KRRT_Node &latest_added_node[m[K, double goal_x, double goal_y) {
+[20.012s]       |                   [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[20.012s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:129:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_x[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.012s]   129 | bool RRT::is_goal(RRT_Node &latest_added_node, [01;35m[Kdouble goal_x[m[K, double goal_y) {
+[20.012s]       |                                                [01;35m[K~~~~~~~^~~~~~[m[K
+[20.013s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:129:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_y[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.013s]   129 | bool RRT::is_goal(RRT_Node &latest_added_node, double goal_x, [01;35m[Kdouble goal_y[m[K) {
+[20.014s]       |                                                               [01;35m[K~~~~~~~^~~~~~[m[K
+[20.015s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kstd::vector<RRT_Node> RRT::find_path(std::vector<RRT_Node>&, RRT_Node&)[m[K’:
+[20.015s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:146:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktree[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.015s]   146 | std::vector<RRT_Node> RRT::find_path([01;35m[Kstd::vector<RRT_Node> &tree[m[K, RRT_Node &latest_added_node) {
+[20.015s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.015s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:146:77:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Klatest_added_node[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.015s]   146 | std::vector<RRT_Node> RRT::find_path(std::vector<RRT_Node> &tree, [01;35m[KRRT_Node &latest_added_node[m[K) {
+[20.015s]       |                                                                   [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[20.016s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kdouble RRT::cost(std::vector<RRT_Node>&, RRT_Node&)[m[K’:
+[20.016s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:163:41:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktree[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.016s]   163 | double RRT::cost([01;35m[Kstd::vector<RRT_Node> &tree[m[K, RRT_Node &node) {
+[20.016s]       |                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.016s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:163:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.017s]   163 | double RRT::cost(std::vector<RRT_Node> &tree, [01;35m[KRRT_Node &node[m[K) {
+[20.017s]       |                                               [01;35m[K~~~~~~~~~~^~~~[m[K
+[20.018s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kdouble RRT::line_cost(RRT_Node&, RRT_Node&)[m[K’:
+[20.018s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:177:33:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn1[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.018s]   177 | double RRT::line_cost([01;35m[KRRT_Node &n1[m[K, RRT_Node &n2) {
+[20.018s]       |                       [01;35m[K~~~~~~~~~~^~[m[K
+[20.018s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:177:47:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kn2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.019s]   177 | double RRT::line_cost(RRT_Node &n1, [01;35m[KRRT_Node &n2[m[K) {
+[20.019s]       |                                     [01;35m[K~~~~~~~~~~^~[m[K
+[20.039s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:[m[K In member function ‘[01m[Kstd::vector<int> RRT::near(std::vector<RRT_Node>&, RRT_Node&)[m[K’:
+[20.040s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:191:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktree[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.040s]   191 | std::vector<int> RRT::near([01;35m[Kstd::vector<RRT_Node> &tree[m[K, RRT_Node &node) {
+[20.040s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[20.040s] [01m[K/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg/src/rrt.cpp:191:67:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[20.040s]   191 | std::vector<int> RRT::near(std::vector<RRT_Node> &tree, [01;35m[KRRT_Node &node[m[K) {
+[20.041s]       |                                                         [01;35m[K~~~~~~~~~~^~~~[m[K
+[111.093s] [100%] [32m[1mLinking CXX executable rrt_node[0m
+[112.621s] [100%] Built target rrt_node
+[112.678s] Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/lab6_pkg -- -j2 -l2
+[112.794s] Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/lab6_pkg
+[112.828s] -- Install configuration: ""
+[112.828s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node
+[112.836s] -- Set runtime path of "/home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node" to ""
+[112.839s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/pythonpath.sh
+[112.839s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/pythonpath.dsv
+[112.840s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg
+[112.843s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg/__init__.py
+[113.010s] Listing '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg'...
+[113.010s] Compiling '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg/__init__.py'...
+[113.018s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node.py
+[113.023s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/package_run_dependencies/lab6_pkg
+[113.024s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/parent_prefix_path/lab6_pkg
+[113.031s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/ament_prefix_path.sh
+[113.031s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/ament_prefix_path.dsv
+[113.032s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/path.sh
+[113.034s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/path.dsv
+[113.035s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.bash
+[113.036s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.sh
+[113.036s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.zsh
+[113.036s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.dsv
+[113.040s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.dsv
+[113.040s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/packages/lab6_pkg
+[113.040s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/cmake/lab6_pkgConfig.cmake
+[113.042s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/cmake/lab6_pkgConfig-version.cmake
+[113.043s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.xml
+[113.052s] Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/lab6_pkg

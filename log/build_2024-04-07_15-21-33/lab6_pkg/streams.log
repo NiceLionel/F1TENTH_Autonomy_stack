@@ -1,0 +1,28 @@
+[0.418s] Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/lab6_pkg -- -j2 -l2
+[0.782s] [100%] Built target rrt_node
+[0.820s] Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/lab6_pkg -- -j2 -l2
+[0.925s] Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/lab6_pkg
+[0.959s] -- Install configuration: ""
+[0.963s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node
+[0.964s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/pythonpath.sh
+[0.964s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/pythonpath.dsv
+[0.965s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg
+[0.965s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg/__init__.py
+[1.036s] Listing '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages/lab6_pkg'...
+[1.043s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/lib/lab6_pkg/rrt_node.py
+[1.045s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/package_run_dependencies/lab6_pkg
+[1.045s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/parent_prefix_path/lab6_pkg
+[1.046s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/ament_prefix_path.sh
+[1.046s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/ament_prefix_path.dsv
+[1.047s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/path.sh
+[1.048s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/environment/path.dsv
+[1.048s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.bash
+[1.049s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.sh
+[1.050s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.zsh
+[1.050s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/local_setup.dsv
+[1.051s] -- Installing: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.dsv
+[1.051s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/ament_index/resource_index/packages/lab6_pkg
+[1.052s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/cmake/lab6_pkgConfig.cmake
+[1.052s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/cmake/lab6_pkgConfig-version.cmake
+[1.053s] -- Up-to-date: /home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.xml
+[1.059s] Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/lab6_pkg

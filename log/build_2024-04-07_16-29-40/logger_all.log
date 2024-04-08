@@ -1,0 +1,478 @@
+[0.305s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'build']
+[0.305s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fbc8a110100>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fbc8a110100>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbc8a0349d0>)
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.466s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.466s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lionelliu/sim_ws'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.490s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extensions ['ignore', 'ignore_ament_install']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'ignore'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'colcon_pkg'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extensions ['colcon_meta']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'colcon_meta'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extensions ['ros']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'ros'
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extensions ['cmake', 'python']
+[0.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'cmake'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'python'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extensions ['python_setup_py']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/csv_data) by extension 'python_setup_py'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore'
+[0.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_pkg'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['colcon_meta']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'colcon_meta'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extensions ['ros']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_gym_ros) by extension 'ros'
+[0.500s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_gym_ros' with type 'ros.ament_python' and name 'f1tenth_gym_ros'
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extensions ['ignore', 'ignore_ament_install']
+[0.500s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'ignore'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'ignore_ament_install'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extensions ['colcon_pkg']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'colcon_pkg'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extensions ['colcon_meta']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'colcon_meta'
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extensions ['ros']
+[0.501s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'ros'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extensions ['cmake', 'python']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'cmake'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'python'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extensions ['python_setup_py']
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6) by extension 'python_setup_py'
+[0.502s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extensions ['ignore', 'ignore_ament_install']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'ignore'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'ignore_ament_install'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extensions ['colcon_pkg']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'colcon_pkg'
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extensions ['colcon_meta']
+[0.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'colcon_meta'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extensions ['ros']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'ros'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extensions ['cmake', 'python']
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'cmake'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'python'
+[0.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extensions ['python_setup_py']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/map) by extension 'python_setup_py'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit) by extension 'ros'
+[0.509s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit' with type 'ros.ament_cmake' and name 'pure_pursuit'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extensions ['ignore', 'ignore_ament_install']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extensions ['ros']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'ros'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extensions ['cmake', 'python']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'cmake'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'python'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extensions ['python_setup_py']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'ignore'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'ignore_ament_install'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extensions ['colcon_pkg']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'colcon_pkg'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extensions ['colcon_meta']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'colcon_meta'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extensions ['ros']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'ros'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extensions ['cmake', 'python']
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'cmake'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'python'
+[0.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extensions ['python_setup_py']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/imgs) by extension 'python_setup_py'
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extension 'ignore'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extension 'ignore_ament_install'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extensions ['colcon_pkg']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extension 'colcon_pkg'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extensions ['colcon_meta']
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extension 'colcon_meta'
+[0.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extensions ['ros']
+[0.517s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-6-motion-planning-team-6/lab6_pkg) by extension 'ros'
+[0.519s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab-6-motion-planning-team-6/lab6_pkg' with type 'ros.ament_cmake' and name 'lab6_pkg'
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extensions ['ignore', 'ignore_ament_install']
+[0.519s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'ignore'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'ignore_ament_install'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extensions ['colcon_pkg']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'colcon_pkg'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extensions ['colcon_meta']
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'colcon_meta'
+[0.520s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extensions ['ros']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'ros'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extensions ['cmake', 'python']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'cmake'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'python'
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extensions ['python_setup_py']
+[0.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6) by extension 'python_setup_py'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'ignore'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'ignore_ament_install'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extensions ['colcon_pkg']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'colcon_pkg'
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extensions ['colcon_meta']
+[0.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'colcon_meta'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extensions ['ros']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'ros'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extensions ['cmake', 'python']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'cmake'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'python'
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extensions ['python_setup_py']
+[0.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/calibration) by extension 'python_setup_py'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'ignore'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'ignore_ament_install'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extensions ['colcon_pkg']
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'colcon_pkg'
+[0.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extensions ['colcon_meta']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'colcon_meta'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extensions ['ros']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'ros'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extensions ['cmake', 'python']
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'cmake'
+[0.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'python'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extensions ['python_setup_py']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/imgs) by extension 'python_setup_py'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-7-vision-lab-team-6/resource) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'ros'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extensions ['cmake', 'python']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'cmake'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'python'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extensions ['python_setup_py']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(src/lab-8-model-predictive-controlc-team-6/mpc) by extension 'ros'
+[0.533s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lab-8-model-predictive-controlc-team-6/mpc' with type 'ros.ament_cmake' and name 'mpc'
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.560s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.561s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_gym_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.561s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_gym_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lionelliu/sim_ws/build/f1tenth_gym_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lionelliu/sim_ws/install/f1tenth_gym_ros', 'merge_install': False, 'path': '/home/lionelliu/sim_ws/src/f1tenth_gym_ros', 'symlink_install': False, 'test_result_base': None}
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'cmake_args' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'cmake_target' from command line to 'None'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.562s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'lab6_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'lab6_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lionelliu/sim_ws/build/lab6_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lionelliu/sim_ws/install/lab6_pkg', 'merge_install': False, 'path': '/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'mpc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'mpc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lionelliu/sim_ws/build/mpc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lionelliu/sim_ws/install/mpc', 'merge_install': False, 'path': '/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'pure_pursuit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] DEBUG:colcon.colcon_core.verb:Building package 'pure_pursuit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lionelliu/sim_ws/build/pure_pursuit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lionelliu/sim_ws/install/pure_pursuit', 'merge_install': False, 'path': '/home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit', 'symlink_install': False, 'test_result_base': None}
+[0.567s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.569s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lionelliu/sim_ws/src/f1tenth_gym_ros' with build type 'ament_python'
+[0.569s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'ament_prefix_path')
+[0.572s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.ps1'
+[0.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.dsv'
+[0.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/ament_prefix_path.sh'
+[0.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg' with build type 'ament_cmake'
+[0.592s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lionelliu/sim_ws/src/lab-6-motion-planning-team-6/lab6_pkg'
+[0.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.008s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lionelliu/sim_ws/src/f1tenth_gym_ros'
+[1.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/lab6_pkg -- -j2 -l2
+[1.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/lab6_pkg -- -j2 -l2
+[1.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/build/lab6_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/lab6_pkg
+[1.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab6_pkg)
+[1.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/build/lab6_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/lab6_pkg
+[1.725s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg' for CMake module files
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg' for CMake config files
+[1.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab6_pkg', 'cmake_prefix_path')
+[1.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/cmake_prefix_path.ps1'
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/cmake_prefix_path.dsv'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/cmake_prefix_path.sh'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/lib'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/bin'
+[1.733s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/lib/pkgconfig/lab6_pkg.pc'
+[1.737s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages'
+[1.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab6_pkg', 'pythonpath')
+[1.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/pythonpath.ps1'
+[1.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/pythonpath.dsv'
+[1.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/pythonpath.sh'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/bin'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.ps1'
+[1.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.dsv'
+[1.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.sh'
+[1.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.bash'
+[1.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.zsh'
+[1.750s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/lab6_pkg/share/colcon-core/packages/lab6_pkg)
+[1.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lab6_pkg)
+[1.891s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg' for CMake module files
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg' for CMake config files
+[1.894s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab6_pkg', 'cmake_prefix_path')
+[1.895s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/cmake_prefix_path.ps1'
+[1.897s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/cmake_prefix_path.dsv'
+[1.899s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/cmake_prefix_path.sh'
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/lib'
+[1.902s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/bin'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/lib/pkgconfig/lab6_pkg.pc'
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/lib/python3.8/site-packages'
+[1.903s] Level 1:colcon.colcon_core.shell:create_environment_hook('lab6_pkg', 'pythonpath')
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/pythonpath.ps1'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/pythonpath.dsv'
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/hook/pythonpath.sh'
+[1.908s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/lab6_pkg/bin'
+[1.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.ps1'
+[1.910s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.dsv'
+[1.911s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.sh'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.bash'
+[1.913s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/lab6_pkg/share/lab6_pkg/package.zsh'
+[1.914s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/lab6_pkg/share/colcon-core/packages/lab6_pkg)
+[1.916s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc' with build type 'ament_cmake'
+[1.916s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lionelliu/sim_ws/src/lab-8-model-predictive-controlc-team-6/mpc'
+[1.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.917s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/src/f1tenth_gym_ros': PYTHONPATH=/home/lionelliu/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build install --record /home/lionelliu/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed install_data
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[2.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[2.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc
+[2.399s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros' for CMake module files
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros' for CMake config files
+[2.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/src/f1tenth_gym_ros' returned '0': PYTHONPATH=/home/lionelliu/sim_ws/build/f1tenth_gym_ros/prefix_override:/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_gym_ros build --build-base /home/lionelliu/sim_ws/build/f1tenth_gym_ros/build install --record /home/lionelliu/sim_ws/build/f1tenth_gym_ros/install.log --install-scripts $base/lib/f1tenth_gym_ros --single-version-externally-managed install_data
+[2.403s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/bin'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/pkgconfig/f1tenth_gym_ros.pc'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/lib/python3.8/site-packages'
+[2.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_gym_ros', 'pythonpath')
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.ps1'
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.dsv'
+[2.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/hook/pythonpath.sh'
+[2.407s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/bin'
+[2.408s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_gym_ros)
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.dsv'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.sh'
+[2.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.bash'
+[2.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/f1tenth_gym_ros/package.zsh'
+[2.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/f1tenth_gym_ros/share/colcon-core/packages/f1tenth_gym_ros)
+[2.429s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit' with build type 'ament_cmake'
+[2.429s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lionelliu/sim_ws/src/lab-5-slam-and-pure-pursuit-team-6/pure_pursuit'
+[2.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/pure_pursuit -- -j2 -l2
+[2.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc)
+[2.461s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc' for CMake module files
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc' for CMake config files
+[2.465s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc
+[2.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'cmake_prefix_path')
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.ps1'
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.sh'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/lib'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/bin'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/lib/pkgconfig/mpc.pc'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages'
+[2.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'pythonpath')
+[2.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/pythonpath.ps1'
+[2.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/pythonpath.dsv'
+[2.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/pythonpath.sh'
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/bin'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.ps1'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.dsv'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.sh'
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.bash'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.zsh'
+[2.477s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/mpc/share/colcon-core/packages/mpc)
+[2.590s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mpc)
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc' for CMake module files
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc' for CMake config files
+[2.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'cmake_prefix_path')
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.ps1'
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.dsv'
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/cmake_prefix_path.sh'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/lib'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/bin'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/lib/pkgconfig/mpc.pc'
+[2.595s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages'
+[2.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('mpc', 'pythonpath')
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/pythonpath.ps1'
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/pythonpath.dsv'
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/mpc/share/mpc/hook/pythonpath.sh'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/mpc/bin'
+[2.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.ps1'
+[2.598s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.dsv'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.sh'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.bash'
+[2.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/mpc/share/mpc/package.zsh'
+[2.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/mpc/share/colcon-core/packages/mpc)
+[2.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/pure_pursuit -- -j2 -l2
+[2.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lionelliu/sim_ws/build/pure_pursuit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/pure_pursuit
+[2.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pure_pursuit)
+[2.789s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit' for CMake module files
+[2.792s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit' for CMake config files
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'cmake_prefix_path')
+[2.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.ps1'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.dsv'
+[2.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lionelliu/sim_ws/build/pure_pursuit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/pure_pursuit
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.sh'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/lib'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/bin'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc'
+[2.803s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages'
+[2.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'pythonpath')
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.ps1'
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.dsv'
+[2.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.sh'
+[2.807s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/bin'
+[2.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.ps1'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv'
+[2.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.sh'
+[2.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.bash'
+[2.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.zsh'
+[2.812s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/pure_pursuit/share/colcon-core/packages/pure_pursuit)
+[2.867s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pure_pursuit)
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit' for CMake module files
+[2.868s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit' for CMake config files
+[2.869s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'cmake_prefix_path')
+[2.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.ps1'
+[2.870s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.dsv'
+[2.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/cmake_prefix_path.sh'
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/lib'
+[2.872s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/bin'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/lib/pkgconfig/pure_pursuit.pc'
+[2.873s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/lib/python3.8/site-packages'
+[2.873s] Level 1:colcon.colcon_core.shell:create_environment_hook('pure_pursuit', 'pythonpath')
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.ps1'
+[2.874s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.dsv'
+[2.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/hook/pythonpath.sh'
+[2.876s] Level 1:colcon.colcon_core.environment:checking '/home/lionelliu/sim_ws/install/pure_pursuit/bin'
+[2.877s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.ps1'
+[2.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.dsv'
+[2.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.sh'
+[2.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.bash'
+[2.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/lionelliu/sim_ws/install/pure_pursuit/share/pure_pursuit/package.zsh'
+[2.882s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lionelliu/sim_ws/install/pure_pursuit/share/colcon-core/packages/pure_pursuit)
+[2.884s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.885s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.885s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.893s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.893s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.893s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.934s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lionelliu/sim_ws/install/local_setup.ps1'
+[2.936s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lionelliu/sim_ws/install/_local_setup_util_ps1.py'
+[2.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lionelliu/sim_ws/install/setup.ps1'
+[2.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lionelliu/sim_ws/install/local_setup.sh'
+[2.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lionelliu/sim_ws/install/_local_setup_util_sh.py'
+[2.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lionelliu/sim_ws/install/setup.sh'
+[2.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lionelliu/sim_ws/install/local_setup.bash'
+[2.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lionelliu/sim_ws/install/setup.bash'
+[2.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lionelliu/sim_ws/install/local_setup.zsh'
+[2.953s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lionelliu/sim_ws/install/setup.zsh'

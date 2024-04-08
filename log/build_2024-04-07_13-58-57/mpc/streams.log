@@ -1,0 +1,29 @@
+[0.069s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[0.361s] [100%] Built target mpc_node
+[0.383s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --build /home/lionelliu/sim_ws/build/mpc -- -j2 -l2
+[0.532s] Invoking command in '/home/lionelliu/sim_ws/build/mpc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc
+[0.558s] -- Install configuration: ""
+[0.563s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node
+[0.567s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.sh
+[0.568s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/pythonpath.dsv
+[0.568s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc
+[0.568s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc/__init__.py
+[0.663s] Listing '/home/lionelliu/sim_ws/install/mpc/lib/python3.8/site-packages/mpc'...
+[0.678s] -- Installing: /home/lionelliu/sim_ws/install/mpc/lib/mpc/mpc_node.py
+[0.678s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/lib/mpc/utils.py
+[0.681s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/package_run_dependencies/mpc
+[0.682s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/parent_prefix_path/mpc
+[0.682s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.sh
+[0.683s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/ament_prefix_path.dsv
+[0.683s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.sh
+[0.684s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/environment/path.dsv
+[0.684s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.bash
+[0.684s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.sh
+[0.685s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.zsh
+[0.685s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/local_setup.dsv
+[0.686s] -- Installing: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.dsv
+[0.691s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/ament_index/resource_index/packages/mpc
+[0.693s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig.cmake
+[0.693s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/cmake/mpcConfig-version.cmake
+[0.694s] -- Up-to-date: /home/lionelliu/sim_ws/install/mpc/share/mpc/package.xml
+[0.699s] Invoked command in '/home/lionelliu/sim_ws/build/mpc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lionelliu/sim_ws/install/f1tenth_gym_ros:/opt/ros/foxy /usr/bin/cmake --install /home/lionelliu/sim_ws/build/mpc
